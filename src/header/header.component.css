@@ -1,0 +1,22 @@
+.navbar{
+    background: #8697c4;
+    display: flexbox;
+    position: relative;
+    top: -5%;
+}
+.card {
+    background-color: #3f52a0; /* Slightly lighter blue for cards */
+    color: white;
+}
+
+.navbar-light .nav-link:hover {
+    color: #00aced; /* Highlight color */
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.container {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,14 @@
+.body{
+    background-color: #ede8f5;
+    width: 100%;
+}
+
+app-header, app-home {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }

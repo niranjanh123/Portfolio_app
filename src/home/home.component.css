@@ -1,0 +1,33 @@
+.block_container{
+  display: flex;
+  position: relative;
+}
+
+.card {
+    background-color: #0d335d; /* Slightly lighter blue for cards */
+    color: white;
+}
+.card img {
+    border-radius: 5px;
+}
+
+.container {
+    scroll-behavior: smooth;
+    background-color: #ede8f5;
+}
+
+@keyframes mymove {
+    from {left: -100px;}
+    to {left: 0px;}
+  }
+
+div{
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+}
+.text{
+  position: relative;
+  top: 50px;
+  width: 200px;
+  margin: 10px;
+}
